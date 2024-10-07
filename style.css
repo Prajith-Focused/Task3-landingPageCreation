@@ -1,0 +1,147 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.header-container {
+    width: 1170px;
+    height: 116.4px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 375px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.authentication-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn {
+    color: #FD8D3A;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.signup-btn {
+    background-color: #FA7436;
+    color: #FFFFFF;
+    border: none;
+    width: 160px;
+    height: 51.05px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Main Section */
+.main-section {
+    display: flex;
+    gap: 40px;
+    margin-top: 214.41px;
+    position: absolute;
+    left: 375px;
+}
+
+.text-container {
+    width: 521px;
+    height: 496.22px;
+}
+
+.text-container h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.text-container p {
+    color: #555;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.discover-btn {
+    background-color: #FA7436;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.image-container {
+    width: 785px;
+    height: 597.3px;
+    position: relative;
+}
+
+.traveler-image {
+    width: 500px;
+    height: 541.14px;
+}
+
+
+
+
+/* Explore Now Section */
+.explore-now-container {
+    width: 841px;
+    height: 126.61px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 900px; 
+    left: 375px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.explore-now-item {
+    font-size: 16px;
+    color: #333;
+}
+
+.explore-now-item span {
+    display: block;
+    color: #888;
+    margin-top: 5px;
+}
+
+.explore-now-btn {
+    background-color: #FA7436;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
